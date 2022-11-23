@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ColorSchemesExample from './ColorSchemesExample';
+import BasicExample from './BasicExample';
+import UncontrolledExample from './UncontrolledExample';
+import WithHeader from './WithHeader';
+import MyTabs from './MyTabs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<ColorSchemesExample/>
+<BasicExample/>
+<UncontrolledExample/>
+<WithHeader/>
+<MyTabs/>
     </div>
   );
 }
